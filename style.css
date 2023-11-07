@@ -68,6 +68,51 @@ header {
 
 }
 
+.feliratok {
+    font-family: 'Merriweather', serif;
+}
+
+blockquote::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '"';
+    rotate: 180deg;
+    height: 90px;
+    font-size: 140px;
+}
+
+.fejlecek_idezet {
+    font-family: 'Abrill Fatface' serif;
+    color: #222 gray;
+    position: relative;
+
+}
+
+.bekezdesek {
+    font-family: 'Joseph Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.bekezdesek p {
+    line-height: 1.4;
+}
+
+.bekezdesek span {
+    font-weight: 500;
+}
+
+.bekezdesek li {
+    list-style: square;
+    line-height: 1.5;
+}
+
+.bekezdesek ul {
+    padding: 10px 40px;
+    margin-block: 15px;
+}
+
 hr {
     border: 2px solid black;
     margin-block: 10px 30px;
@@ -82,4 +127,8 @@ hr {
 .anakin_skywalker span {
     font-size: 70px;
     line-height: 60px;
+}
+
+.section {
+    padding: 40px 60px;
 }
