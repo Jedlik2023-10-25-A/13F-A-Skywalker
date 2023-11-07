@@ -44,3 +44,8 @@ hr{
     margin-block: 10px 30px;
 }
 
+.anakin_skywalker {
+    font-size: 35px;
+    opacity: .7;
+    font-weight: 500;
+}
