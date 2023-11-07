@@ -7,3 +7,10 @@ blockquote::before {
     height: 90px;
     font-size: 140px;
 }
+
+.fejlecek_idezet{
+    font-family: 'Abrill Fatface' serif;
+    color: #222 gray;
+    position: relative;
+
+}
