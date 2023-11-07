@@ -14,3 +14,9 @@ blockquote::before {
     position: relative;
 
 }
+
+.bekezdesek{
+    font-family: 'Joseph Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+}
