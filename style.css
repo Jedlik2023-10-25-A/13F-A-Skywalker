@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.p-2 {
+    padding-block: 20px;
+}
+
+.font--sm {
+    font-size: 16px;
+}
+
+.font--md {
+    font-size: 18px;
+}
+
+.font--lg {
+    font-size: 25px;
+}
+
+body {
+    max-width: 1278px;
+    margin-inline: auto;
+
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+h3 {
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+
+}
+
+main {
+    max-width: 850px;
+    margin-inline: auto;
+}
+
+header {
+    border-top: 5px solid black;
+    background: url(first-website-header.png);
+    background-size: 100% 100%;
+    height: 400px;
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 40px;
+
+}
+
+hr {
+    border: 2px solid black;
+    margin-block: 10px 30px;
+}
+
+.anakin_skywalker {
+    font-size: 35px;
+    opacity: .7;
+    font-weight: 500;
+}
+
+.anakin_skywalker span {
+    font-size: 70px;
+    line-height: 60px;
+}
