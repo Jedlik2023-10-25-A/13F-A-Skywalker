@@ -39,3 +39,8 @@ blockquote::before {
     margin-block: 15px;
 }
 
+hr{
+    border: 2px solid black;
+    margin-block: 10px 30px;
+}
+
