@@ -53,3 +53,17 @@ main {
     max-width: 850px;
     margin-inline: auto;
 }
+
+header {
+    border-top: 5px solid black;
+    background: url(first-website-header.png);
+    background-size: 100% 100%;
+    height: 400px;
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 40px;
+
+}
