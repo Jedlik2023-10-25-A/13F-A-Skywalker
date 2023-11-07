@@ -29,3 +29,9 @@ body {
     margin-inline: auto;
 
 }
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
