@@ -35,3 +35,8 @@ h2 {
     margin-bottom: 45px;
     text-transform: uppercase;
 }
+
+h3 {
+    line-height: 1.2;
+    font-weight: 400;
+}
