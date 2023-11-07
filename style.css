@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+.feliratok {
+    font-family: 'Merriweather', serif;
+}
+
 .p-2 {
     padding-block: 20px;
 }
@@ -22,6 +26,32 @@
 
 .font--lg {
     font-size: 25px;
+}
+
+blockquote::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '”';
+    rotate: 180deg;
+    height: 90px;
+    font-size: 140px;
+}
+
+.quote {
+    display: flex;
+    min-height: 170px;
+    background-color: #222;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+blockquote {
+    max-width: 27ch;
 }
 
 body {
@@ -49,6 +79,7 @@ h4 {
 
 }
 
+
 main {
     max-width: 850px;
     margin-inline: auto;
@@ -68,31 +99,17 @@ header {
 
 }
 
-.feliratok {
-    font-family: 'Merriweather', serif;
-}
-
-blockquote::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: '"';
-    rotate: 180deg;
-    height: 90px;
-    font-size: 140px;
-}
-
-.fejlecek_idezet {
-    font-family: 'Abrill Fatface' serif;
-    color: #222 gray;
+.fejlec_idezetek {
+    font-family: 'Abril Fatface', serif;
+    color: #222 grey;
     position: relative;
-
 }
 
 .bekezdesek {
-    font-family: 'Joseph Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 21px;
     font-weight: 300;
+
 }
 
 .bekezdesek p {
@@ -104,7 +121,7 @@ blockquote::before {
 }
 
 .bekezdesek li {
-    list-style: square;
+    list-style-type: square;
     line-height: 1.5;
 }
 
@@ -128,6 +145,7 @@ hr {
     font-size: 70px;
     line-height: 60px;
 }
+
 
 .section {
     padding: 40px 60px;
