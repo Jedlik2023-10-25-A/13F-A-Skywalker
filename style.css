@@ -1,0 +1,9 @@
+blockquote::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '"';
+    rotate: 180deg;
+    height: 90px;
+    font-size: 140px;
+}
